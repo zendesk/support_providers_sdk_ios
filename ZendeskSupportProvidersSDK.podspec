@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSupportProvidersSDK"
-  s.version      = "5.0.3"
+  s.version      = "5.0.4"
   s.summary      = "ZendeskSupportProvidersSDK #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/embeddables"
   s.license      = {
@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2.2'
   s.source       = { :git => "https://github.com/zendesk/support_providers_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'SupportProvidersSDK.framework'
-  s.dependency 'ZendeskCoreSDK', '~> 2.3.0'
+  s.dependency 'ZendeskCoreSDK', '~> 2.2.1'
 end
