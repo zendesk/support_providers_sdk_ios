@@ -299,7 +299,7 @@ SWIFT_CLASS_NAMED("HelpCenterBlips")
 
 
 @interface ZDKHelpCenterBlips (SWIFT_EXTENSION(SupportProvidersSDK))
-+ (void)blipArticleViewed:(NSString * _Nonnull)pageTitle url:(NSString * _Nonnull)url navigatorLanguage:(NSString * _Nonnull)navigatorLanguage;
++ (void)blipArticleViewed:(NSString * _Nonnull)pageTitle url:(NSString * _Nonnull)url navigatorLanguage:(NSString * _Nonnull)navigatorLanguage pageId:(int64_t)pageId pageLocale:(NSString * _Nonnull)pageLocale;
 + (void)blipSearchQuery:(NSString * _Nonnull)query;
 + (void)blipArticleVote:(NSString * _Nonnull)articleId vote:(NSInteger)vote;
 @end
@@ -865,7 +865,7 @@ SWIFT_CLASS_NAMED("HelpCenterBlips")
 
 
 @interface ZDKHelpCenterBlips (SWIFT_EXTENSION(SupportProvidersSDK))
-+ (void)blipArticleViewed:(NSString * _Nonnull)pageTitle url:(NSString * _Nonnull)url navigatorLanguage:(NSString * _Nonnull)navigatorLanguage;
++ (void)blipArticleViewed:(NSString * _Nonnull)pageTitle url:(NSString * _Nonnull)url navigatorLanguage:(NSString * _Nonnull)navigatorLanguage pageId:(int64_t)pageId pageLocale:(NSString * _Nonnull)pageLocale;
 + (void)blipSearchQuery:(NSString * _Nonnull)query;
 + (void)blipArticleVote:(NSString * _Nonnull)articleId vote:(NSInteger)vote;
 @end
