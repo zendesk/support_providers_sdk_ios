@@ -226,7 +226,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ChQgzBMYZEHBQrsBz1CanGHd2tA=
+		9ZAL+LXnjuyluuk6MME+vdfbqgQ=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Feh0zitix2iZ9gqMvsbcwTrikfQ=
+		aLM45a3BRg2M2GKMJZHKAkBQols=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/i386.swiftdoc</key>
 		<data>
@@ -250,7 +250,7 @@
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/i386.swiftmodule</key>
 		<data>
-		Feh0zitix2iZ9gqMvsbcwTrikfQ=
+		aLM45a3BRg2M2GKMJZHKAkBQols=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -262,7 +262,7 @@
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eRHEANiXBbxrJ3HlSmcyReFVtqc=
+		4X2fG3HfhucJWX15UwoRQkoZcXY=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -274,7 +274,7 @@
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		eRHEANiXBbxrJ3HlSmcyReFVtqc=
+		4X2fG3HfhucJWX15UwoRQkoZcXY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -934,11 +934,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Feh0zitix2iZ9gqMvsbcwTrikfQ=
+			aLM45a3BRg2M2GKMJZHKAkBQols=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2njCXIeTy9uT/lnxrs/WvkQmeektf1Yvqbj/8KvX6k=
+			vlTgwyK5++eT4bgorbl9fY/ykvf748hDXqBdigCMYkc=
 			</data>
 		</dict>
 		<key>Modules/SupportProvidersSDK.swiftmodule/i386.swiftdoc</key>
@@ -967,11 +967,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Feh0zitix2iZ9gqMvsbcwTrikfQ=
+			aLM45a3BRg2M2GKMJZHKAkBQols=
 			</data>
 			<key>hash2</key>
 			<data>
-			V2njCXIeTy9uT/lnxrs/WvkQmeektf1Yvqbj/8KvX6k=
+			vlTgwyK5++eT4bgorbl9fY/ykvf748hDXqBdigCMYkc=
 			</data>
 		</dict>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -1000,11 +1000,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eRHEANiXBbxrJ3HlSmcyReFVtqc=
+			4X2fG3HfhucJWX15UwoRQkoZcXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Vfl8S/0/QbuFv+IGp95RRvBauagWstj9ROB4/zy2Vk=
+			Jhq+/aTXlaxFMQQfDy0pA4IujLSjtdYmbCGr3VswWZI=
 			</data>
 		</dict>
 		<key>Modules/SupportProvidersSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -1033,11 +1033,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eRHEANiXBbxrJ3HlSmcyReFVtqc=
+			4X2fG3HfhucJWX15UwoRQkoZcXY=
 			</data>
 			<key>hash2</key>
 			<data>
-			0Vfl8S/0/QbuFv+IGp95RRvBauagWstj9ROB4/zy2Vk=
+			Jhq+/aTXlaxFMQQfDy0pA4IujLSjtdYmbCGr3VswWZI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
