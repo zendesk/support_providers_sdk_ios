@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "ZendeskCoreSDK",
-                 url: "https://github.com/zendesk/core_sdk_ios/releases/download/2.5.0/ZendeskCoreSDK.xcframework.zip",
+                 url: "https://github.com/zendesk/core_sdk_ios",
                  from: "2.5.0"
         )
     ],
