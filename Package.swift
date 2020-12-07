@@ -22,8 +22,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZendeskSupportProvidersSDK",
-            url: "https://github.com/zendesk/support_providers_sdk_ios/releases/download/5.2.0/SupportProvidersSDK.xcframework.zip",
-            checksum: "14138eac76d55cf296d0941902b1b71161324b993fc6d7526c1f7034e201ce52"
+            path: "SupportProvidersSDK.xcframework"
         ),
         .target(name: "ZendeskSupportProvidersSDKTargets",
                 dependencies: [
