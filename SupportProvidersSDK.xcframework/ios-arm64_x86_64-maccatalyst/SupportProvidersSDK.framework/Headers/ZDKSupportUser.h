@@ -1,11 +1,11 @@
 /*
  *
- *  ZDKAPIDispatcher.h
+ *  ZDKUser.h
  *  SupportProvidersSDK
  *
- *  Created by Zendesk on  24/12/2015.
+ *  Created by Zendesk on 13/06/2014.  
  *
- *  Copyright (c) 2016 Zendesk. All rights reserved.
+ *  Copyright (c) 2014 Zendesk. All rights reserved.
  *
  *  By downloading or using the Zendesk Mobile SDK, You agree to the Zendesk Master
  *  Subscription Agreement https://www.zendesk.com/company/customers-partners/#master-subscription-agreement and Application Developer and API License
@@ -14,22 +14,26 @@
  *
  */
 
+
 #import <Foundation/Foundation.h>
-#import "ZDKDispatcher.h"
-#import "SupportSDKConstants.h"
 
+@interface ZDKSupportUser : NSObject
 
-@class ZDKZendesk;
+@property (nonatomic, strong) NSNumber *userId;
 
-@interface ZDKAPIDispatcher : NSObject
+@property (nonatomic, copy) NSString *name;
 
-+ (instancetype)instanceWithZendesk:(ZDKZendesk *)zendesk;
+@property (nonatomic, copy) NSString *avatarURL;
 
-- (void)executeRequest:(NSMutableURLRequest* (^)(void))requestBlock
-             onSuccess:(ZDKAPISuccess)successBlock
-               onError:(ZDKAPIError)errorBlock
-          requiresAuth:(BOOL)requiresAuth;
+@property (nonatomic, assign) BOOL isAgent;
 
-+ (void)resetSession;
+@property (nonatomic, copy) NSArray *tags;
+
+@property (nonatomic, copy) NSDictionary *userFields;
+
+- (instancetype) initWithDictionary:(NSDictionary*)dictionary;
+
+- (NSDictionary *)toJson;
 
 @end
+
