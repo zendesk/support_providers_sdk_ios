@@ -16,6 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
+__attribute__((deprecated("ZDKNSCodingUtil is deprcated, and should no longer be used")))
+/// ZDKNSCodingUtil is deprcated, and should no longer be used
 @interface ZDKNSCodingUtil : NSObject
 
 + (void)encodeWithCoder:(NSCoder *)aCoder forInstance:(NSObject *)instance ;

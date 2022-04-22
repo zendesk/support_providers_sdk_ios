@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSupportProvidersSDK"
-  s.version      = "5.4.1"
+  s.version      = "5.5.0"
   s.summary      = "ZendeskSupportProvidersSDK #{s.version.to_s}"
-  s.homepage     = "https://developer.zendesk.com/embeddables"
+  s.homepage     = "https://developer.zendesk.com/documentation/classic-web-widget-sdks/"
   s.license      = {
     :type => 'Copyright',
     :text => <<-LICENSE
@@ -22,5 +22,5 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/support_providers_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'SupportProvidersSDK.xcframework'
-  s.dependency 'ZendeskCoreSDK', '2.6.0'
+  s.dependency 'ZendeskCoreSDK', '2.7.0'
 end

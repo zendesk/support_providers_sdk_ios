@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/ZDKCoding.h</key>
 		<data>
-		zRNthlV6nfGyz6nSGQlvhdEyvME=
+		l4w8AjjqhQBJLb5B+YC7h5vxSTI=
 		</data>
 		<key>Headers/ZDKComment.h</key>
 		<data>
@@ -154,7 +154,7 @@
 		</data>
 		<key>Headers/ZDKNSCodingUtil.h</key>
 		<data>
-		JCMSXNzllYXhKrw1Ww8rdrQW4XI=
+		Y6/wAkyAEe/jGDXawz/JzK3+tfM=
 		</data>
 		<key>Headers/ZDKNavBarConversationsUIType.h</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bHkuGh+GvlTDATrWvx3Su4dqzKU=
+		7jFC79Ebb8i2oOTH569vzWzcGbE=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -411,11 +411,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zRNthlV6nfGyz6nSGQlvhdEyvME=
+			l4w8AjjqhQBJLb5B+YC7h5vxSTI=
 			</data>
 			<key>hash2</key>
 			<data>
-			0RKaVr1UvriAlzwebMBHp2j44EmZVVkM6f6vRbdy3ig=
+			DK9+Rk9Uc6+xay5ze2b4pdE1zernSvOEz5ke8AMMc+Y=
 			</data>
 		</dict>
 		<key>Headers/ZDKComment.h</key>
@@ -730,11 +730,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JCMSXNzllYXhKrw1Ww8rdrQW4XI=
+			Y6/wAkyAEe/jGDXawz/JzK3+tfM=
 			</data>
 			<key>hash2</key>
 			<data>
-			7J1S5UFkdkJ9eCIolwRzOTtJEtozR6oZMg8BbCS2R6Y=
+			/n7ZuHS3nwcnEwGLFr1HZy4MDQtkalckNibRHbwgzDk=
 			</data>
 		</dict>
 		<key>Headers/ZDKNavBarConversationsUIType.h</key>

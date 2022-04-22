@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SupportProvidersSDK - ZDKRequestProvider</title>
+    <link rel="stylesheet" type="text/css" href="/support_providers_sdk_ios/all.css" media="all" />
+</head>
+<body>
+    <header>
+        <a href="/support_providers_sdk_ios">
+            <strong>
+                SupportProvidersSDK
+            </strong>
+            <span>Documentation</span>
+        </a>
+    </header>
+
+    <!--
+    <form class="search">
+        <input type="search" placeholder="Search" />
+    </form>
+    -->
+
+    <nav>
+        <div class="wrapper">
+            <h2>On This Page</h2>
+            <ol><li><a href="#methods">Methods</a><ul><li class="function"><a href="#zdkrequestprovider.getupdatesfordevice(callback:)">get​Updates​For​Device(callback:​)</a></li><li class="function"><a href="#zdkrequestprovider.markrequestasread(_:withcommentcount:)">mark​Request​AsRead(_:​with​Comment​Count:​)</a></li><li class="function"><a href="#zdkrequestprovider.markrequestasunread(_:)">mark​Request​AsUnread(_:​)</a></li><li class="function"><a href="#zdkrequestprovider.calculaterequestupdates(_:)">calculate​Request​Updates(_:​)</a></li><li class="function"><a href="#zdkrequestprovider.updaterequeststoragewithrequests(_:)">update​Request​Storage​With​Requests(_:​)</a></li></ul></li></ol>
+        </div>
+    </nav>
+
+    <main>
+        <article>
+            <h1>
+    <small>Extensions on</small>
+    <code class="name">ZDKRequestProvider</code>
+</h1>
+    <section id="methods">
+        <h2>Methods</h2>
+
+        <div role="article" class="function" id="zdkrequestprovider.getupdatesfordevice(callback:)">
+    <h3>
+        <code><a href="#zdkrequestprovider.getupdatesfordevice(callback:)">get​Updates​For​Device(callback:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="attribute">@</span><span class="attribute">objc</span> <span class="keyword">public</span> <span class="keyword">func</span> <span class="function">getUpdatesForDevice</span>(<span class="variable">callback</span>: <span class="attribute">@</span><span class="attribute">escaping</span> (<a href="/support_providers_sdk_ios/RequestUpdates"><span class="type">RequestUpdates</span></a>?) -&gt; <span class="type">Void</span>)  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Gets details of any updates to requests for this device.</p>
+
+</div>
+<div class="discussion">
+    <p><code>ZDKRequestUpdates</code> are cached for up to one hour. Subsequent calls to this method within
+the hour will return the same object without querying the network. Calling this method once
+the hour has expired will query the network again, and cache the new results for the next
+hour.</p>
+
+<p>If using the Zendesk UI, viewing a request will update the cached <code>ZDKRequestUpdates</code>
+to remove the viewed request. If using the providers only, a request can be removed from
+the cached <code>ZDKRequestUpdates</code> by calling <code>markRequestAsRead:</code>.</p>
+
+<p>@since 1.10.0.1</p>
+
+</div>
+<h4>Parameters</h4>
+
+<table class="parameters">
+  <thead hidden>
+  <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th>callback</th>
+    <td><code class="type">@escaping (Request​Updates?) -&gt; Void</code></td>
+    <td><p>callback supplies a optional <code>ZDKRequestUpdates</code> object that is either nil if unsuccessful or <code>nonnil</code> if successful.</p>
+</td>
+</tr>
+  </tbody>
+</table>
+</div>
+<div role="article" class="function" id="zdkrequestprovider.markrequestasread(_:withcommentcount:)">
+    <h3>
+        <code><a href="#zdkrequestprovider.markrequestasread(_:withcommentcount:)">mark​Request​AsRead(_:​with​Comment​Count:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="attribute">@</span><span class="attribute">objc</span> <span class="keyword">public</span> <span class="keyword">func</span> <span class="function">markRequestAsRead</span>(<span class="keyword">_</span> <span class="variable">requestId</span>: <span class="type">String</span>, <span class="variable">withCommentCount</span> <span class="variable">commentCount</span>: <span class="type">Int</span>)  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Marks all the comments of a request as read
+by making the commentCount and readCommentCount
+equal to the commentCount that is passed in.</p>
+
+</div>
+<h4>Parameters</h4>
+
+<table class="parameters">
+  <thead hidden>
+  <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th>request​Id</th>
+    <td><code class="type">String</code></td>
+    <td><p>ID of request to mark as read</p>
+</td>
+</tr>
+<tr>
+    <th>comment​Count</th>
+    <td><code class="type">Int</code></td>
+    <td><p>This sets both the commentCount and readCommentCount as this number.</p>
+</td>
+</tr>
+  </tbody>
+</table>
+</div>
+<div role="article" class="function" id="zdkrequestprovider.markrequestasunread(_:)">
+    <h3>
+        <code><a href="#zdkrequestprovider.markrequestasunread(_:)">mark​Request​AsUnread(_:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="attribute">@</span><span class="attribute">objc</span> <span class="keyword">public</span> <span class="keyword">func</span> <span class="function">markRequestAsUnread</span>(<span class="keyword">_</span> <span class="variable">requestId</span>: <span class="type">String</span>)  </body></html></code></pre>
+</div>
+<div class="summary" role="doc-abstract">
+    <p>Marks the request as unread
+by incrementing the commentCount by one.
+This should be used when a push notification has been recieved to
+updated the request as unread.</p>
+
+</div>
+<h4>Parameters</h4>
+
+<table class="parameters">
+  <thead hidden>
+  <tr>
+      <th>Name</th>
+      <th>Type</th>
+      <th>Description</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr>
+    <th>request​Id</th>
+    <td><code class="type">String</code></td>
+    <td><p>ID of request to mark as unread</p>
+</td>
+</tr>
+  </tbody>
+</table>
+</div>
+<div role="article" class="function" id="zdkrequestprovider.calculaterequestupdates(_:)">
+    <h3>
+        <code><a href="#zdkrequestprovider.calculaterequestupdates(_:)">calculate​Request​Updates(_:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">func</span> <span class="function">calculateRequestUpdates</span>(<span class="keyword">_</span> <span class="variable">requests</span>: [<a href="/support_providers_sdk_ios/RequestForStorage"><span class="type">RequestForStorage</span></a>]) -&gt; <a href="/support_providers_sdk_ios/RequestUpdates"><span class="type">RequestUpdates</span></a>  </body></html></code></pre>
+</div>
+</div>
+<div role="article" class="function" id="zdkrequestprovider.updaterequeststoragewithrequests(_:)">
+    <h3>
+        <code><a href="#zdkrequestprovider.updaterequeststoragewithrequests(_:)">update​Request​Storage​With​Requests(_:​)</a></code>
+    </h3>
+    <div class="declaration">
+<pre class="highlight"><code><html><body><span class="attribute">@</span><span class="attribute">objc</span> <span class="keyword">public</span> <span class="keyword">func</span> <span class="function">updateRequestStorageWithRequests</span>(<span class="keyword">_</span> <span class="variable">requests</span>: [<span class="type">ZDKRequest</span>])  </body></html></code></pre>
+</div>
+</div>
+    </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>
+    Generated on <time datetime="2022-04-22T10:07:24+0000">April 22, 2022</time> using <a href="https://github.com/SwiftDocOrg/swift-doc">swift-doc</a> <span class="version">1.0.0-rc.1</span>.
+</p>
+    </footer>
+</body>
+</html>

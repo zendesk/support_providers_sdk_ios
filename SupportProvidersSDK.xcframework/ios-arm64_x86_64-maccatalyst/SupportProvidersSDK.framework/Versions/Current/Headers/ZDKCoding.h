@@ -16,6 +16,8 @@
 
 #import <Foundation/Foundation.h>
 
+__attribute__((deprecated("ZDKCoding is deprcated, and should no longer be used")))
+/// ZDKCoding is deprcated, and should no longer be used
 @interface ZDKCoding : NSObject <NSCoding>
 
 @end
