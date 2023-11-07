@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ZendeskSupportProvidersSDK",
     platforms: [
-        .iOS(.v11)
+        .iOS(.v12)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskCoreSDK",
                  url: "https://github.com/zendesk/core_sdk_ios",
-                 .exact("4.0.0"))
+                 .exact("5.0.0"))
     ],
     targets: [
         .binaryTarget(
