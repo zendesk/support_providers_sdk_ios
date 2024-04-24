@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskCoreSDK",
                  url: "https://github.com/zendesk/core_sdk_ios",
-                 .exact("5.0.0"))
+                 .exact("5.0.1"))
     ],
     targets: [
         .binaryTarget(

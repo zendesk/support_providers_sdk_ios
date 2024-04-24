@@ -38,46 +38,6 @@
 
 
 /**
- *  Get the total device memory.
- *
- *  @since 0.9.3.1
- *
- *  @return the device memory in GB
- */
-+ (double) totalDeviceMemory;
-
-
-/**
- *  Get the free disk space of the device.
- *
- *  @since 0.9.3.1
- *
- *  @return the free disk space of the device in GB
- */
-+ (double) freeDiskspace;
-
-
-/**
- *  Get the total disk space of the device.
- *
- *  @since 0.9.3.1
- *
- *  @return the total disk space of the device in GB
- */
-+ (double) totalDiskspace;
-
-
-/**
- *  The current battery level of the device.
- *
- *  @since 0.9.3.1
- *
- *  @return the current battery level of the device as a percentage
- */
-+ (CGFloat) batteryLevel;
-
-
-/**
  *  The current region setting of the device.
  *
  *  @since 0.9.3.1
