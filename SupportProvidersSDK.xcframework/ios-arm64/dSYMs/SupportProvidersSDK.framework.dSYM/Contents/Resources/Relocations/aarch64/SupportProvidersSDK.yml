@@ -9,8 +9,8 @@ relocations:
   - { offsetInCU: 0xF2, offset: 0xAB46D, size: 0x8, addend: 0x0, symName: '+[ZDKRequestsResponse parseRequestListAgentsWithDictionary:]', symObjAddr: 0x198, symBinAddr: 0x4198, symSize: 0x1A0 }
   - { offsetInCU: 0x27, offset: 0xAB6D8, size: 0x8, addend: 0x0, symName: '+[ZDKAttachmentCache load]', symObjAddr: 0x0, symBinAddr: 0x4338, symSize: 0x28 }
   - { offsetInCU: 0x35, offset: 0xAB6E6, size: 0x8, addend: 0x0, symName: '+[ZDKAttachmentCache load]', symObjAddr: 0x0, symBinAddr: 0x4338, symSize: 0x28 }
-  - { offsetInCU: 0x5B, offset: 0xAB70C, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x1AD0, symBinAddr: 0x64A50, symSize: 0x0 }
-  - { offsetInCU: 0xA8, offset: 0xAB759, size: 0x8, addend: 0x0, symName: _imageCache, symObjAddr: 0x1AD8, symBinAddr: 0x64A58, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0xAB70C, size: 0x8, addend: 0x0, symName: _load.onceToken, symObjAddr: 0x1AC8, symBinAddr: 0x64A50, symSize: 0x0 }
+  - { offsetInCU: 0xA8, offset: 0xAB759, size: 0x8, addend: 0x0, symName: _imageCache, symObjAddr: 0x1AD0, symBinAddr: 0x64A58, symSize: 0x0 }
   - { offsetInCU: 0x114, offset: 0xAB7C5, size: 0x8, addend: 0x0, symName: '___26+[ZDKAttachmentCache load]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x4360, symSize: 0x30 }
   - { offsetInCU: 0x13B, offset: 0xAB7EC, size: 0x8, addend: 0x0, symName: '+[ZDKAttachmentCache imageWithFilename:]', symObjAddr: 0x58, symBinAddr: 0x4390, symSize: 0xC }
   - { offsetInCU: 0x17C, offset: 0xAB82D, size: 0x8, addend: 0x0, symName: '+[ZDKAttachmentCache cacheImage:withFilename:]', symObjAddr: 0x64, symBinAddr: 0x439C, symSize: 0x14 }
@@ -91,8 +91,8 @@ relocations:
   - { offsetInCU: 0x2C1, offset: 0xAD659, size: 0x8, addend: 0x0, symName: '-[ZDKUploadResponse .cxx_destruct]', symObjAddr: 0x1D4, symBinAddr: 0x6244, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0xAD703, size: 0x8, addend: 0x0, symName: '+[ZDKBundleUtils frameworkResourceBundle]', symObjAddr: 0x0, symBinAddr: 0x6274, symSize: 0x4C }
   - { offsetInCU: 0x3A, offset: 0xAD716, size: 0x8, addend: 0x0, symName: '+[ZDKBundleUtils frameworkStringsBundle]', symObjAddr: 0x4C, symBinAddr: 0x62C0, symSize: 0x40 }
-  - { offsetInCU: 0x64, offset: 0xAD740, size: 0x8, addend: 0x0, symName: _frameworkStringsBundle.frameworkStringsBundle, symObjAddr: 0x2538, symBinAddr: 0x64A60, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0xAD756, size: 0x8, addend: 0x0, symName: _frameworkStringsBundle.predicate, symObjAddr: 0x2540, symBinAddr: 0x64A68, symSize: 0x0 }
+  - { offsetInCU: 0x64, offset: 0xAD740, size: 0x8, addend: 0x0, symName: _frameworkStringsBundle.frameworkStringsBundle, symObjAddr: 0x2528, symBinAddr: 0x64A60, symSize: 0x0 }
+  - { offsetInCU: 0x7A, offset: 0xAD756, size: 0x8, addend: 0x0, symName: _frameworkStringsBundle.predicate, symObjAddr: 0x2530, symBinAddr: 0x64A68, symSize: 0x0 }
   - { offsetInCU: 0xCE, offset: 0xAD7AA, size: 0x8, addend: 0x0, symName: '+[ZDKBundleUtils frameworkResourceBundle]', symObjAddr: 0x0, symBinAddr: 0x6274, symSize: 0x4C }
   - { offsetInCU: 0x160, offset: 0xAD83C, size: 0x8, addend: 0x0, symName: '___40+[ZDKBundleUtils frameworkStringsBundle]_block_invoke', symObjAddr: 0x8C, symBinAddr: 0x6300, symSize: 0x94 }
   - { offsetInCU: 0x1A6, offset: 0xAD882, size: 0x8, addend: 0x0, symName: '+[ZDKBundleUtils pathForFrameworkResource:ofType:]', symObjAddr: 0x120, symBinAddr: 0x6394, symSize: 0x88 }
@@ -148,9 +148,9 @@ relocations:
   - { offsetInCU: 0x2B2, offset: 0xAE9A5, size: 0x8, addend: 0x0, symName: '-[ZDKCommentWithUser .cxx_destruct]', symObjAddr: 0x270, symBinAddr: 0x7550, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0xAEA39, size: 0x8, addend: 0x0, symName: '+[ZDKLocalization printAllKeys]', symObjAddr: 0x0, symBinAddr: 0x7580, symSize: 0x144 }
   - { offsetInCU: 0x3A, offset: 0xAEA4C, size: 0x8, addend: 0x0, symName: '+[ZDKLocalization setupBundles]', symObjAddr: 0xA0C, symBinAddr: 0x7F8C, symSize: 0x6C }
-  - { offsetInCU: 0x60, offset: 0xAEA72, size: 0x8, addend: 0x0, symName: _setupBundles.predicate, symObjAddr: 0x5168, symBinAddr: 0x64A80, symSize: 0x0 }
-  - { offsetInCU: 0xC4, offset: 0xAEAD6, size: 0x8, addend: 0x0, symName: _hostBundlesArray, symObjAddr: 0x5160, symBinAddr: 0x64A78, symSize: 0x0 }
-  - { offsetInCU: 0xDF, offset: 0xAEAF1, size: 0x8, addend: 0x0, symName: _hostTableName, symObjAddr: 0x5158, symBinAddr: 0x64A70, symSize: 0x0 }
+  - { offsetInCU: 0x60, offset: 0xAEA72, size: 0x8, addend: 0x0, symName: _setupBundles.predicate, symObjAddr: 0x5158, symBinAddr: 0x64A80, symSize: 0x0 }
+  - { offsetInCU: 0xC4, offset: 0xAEAD6, size: 0x8, addend: 0x0, symName: _hostBundlesArray, symObjAddr: 0x5150, symBinAddr: 0x64A78, symSize: 0x0 }
+  - { offsetInCU: 0xDF, offset: 0xAEAF1, size: 0x8, addend: 0x0, symName: _hostTableName, symObjAddr: 0x5148, symBinAddr: 0x64A70, symSize: 0x0 }
   - { offsetInCU: 0xFE, offset: 0xAEB10, size: 0x8, addend: 0x0, symName: '+[ZDKLocalization printAllKeys]', symObjAddr: 0x0, symBinAddr: 0x7580, symSize: 0x144 }
   - { offsetInCU: 0x161, offset: 0xAEB73, size: 0x8, addend: 0x0, symName: '___31+[ZDKLocalization printAllKeys]_block_invoke', symObjAddr: 0x144, symBinAddr: 0x76C4, symSize: 0x2C }
   - { offsetInCU: 0x1C4, offset: 0xAEBD6, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x170, symBinAddr: 0x76F0, symSize: 0x8 }
@@ -330,7 +330,7 @@ relocations:
   - { offsetInCU: 0x745, offset: 0xB2B8C, size: 0x8, addend: 0x0, symName: '-[ZDKComment setRequestId:]', symObjAddr: 0x8D0, symBinAddr: 0xAEB4, symSize: 0x8 }
   - { offsetInCU: 0x784, offset: 0xB2BCB, size: 0x8, addend: 0x0, symName: '-[ZDKComment .cxx_destruct]', symObjAddr: 0x8D8, symBinAddr: 0xAEBC, symSize: 0x6C }
   - { offsetInCU: 0x27, offset: 0xB2CD1, size: 0x8, addend: 0x0, symName: '+[ZDKETag initialize]', symObjAddr: 0x0, symBinAddr: 0xAF28, symSize: 0x68 }
-  - { offsetInCU: 0x41, offset: 0xB2CEB, size: 0x8, addend: 0x0, symName: _eTagLookup, symObjAddr: 0x1AA8, symBinAddr: 0x64A88, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0xB2CEB, size: 0x8, addend: 0x0, symName: _eTagLookup, symObjAddr: 0x1AA0, symBinAddr: 0x64A88, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0xB2D0F, size: 0x8, addend: 0x0, symName: '+[ZDKETag initialize]', symObjAddr: 0x0, symBinAddr: 0xAF28, symSize: 0x68 }
   - { offsetInCU: 0x98, offset: 0xB2D42, size: 0x8, addend: 0x0, symName: '+[ZDKETag addEtagToRequest:]', symObjAddr: 0x68, symBinAddr: 0xAF90, symSize: 0x84 }
   - { offsetInCU: 0xEB, offset: 0xB2D95, size: 0x8, addend: 0x0, symName: '+[ZDKETag unmodified:]', symObjAddr: 0xEC, symBinAddr: 0xB014, symSize: 0x6C }
@@ -437,8 +437,8 @@ relocations:
   - { offsetInCU: 0x72, offset: 0xB8046, size: 0x8, addend: 0x0, symName: _zdk_NilSafeNSDictionaryOfVariableBindings, symObjAddr: 0x0, symBinAddr: 0x113B0, symSize: 0x1C0 }
   - { offsetInCU: 0x164, offset: 0xB8138, size: 0x8, addend: 0x0, symName: '+[ZDKValidator validateValues:]', symObjAddr: 0x1C0, symBinAddr: 0x11570, symSize: 0x328 }
   - { offsetInCU: 0x27, offset: 0xB825E, size: 0x8, addend: 0x0, symName: '+[ZDKHelpCenterSessionCache cacheLastSearch:]', symObjAddr: 0x0, symBinAddr: 0x11898, symSize: 0x4C }
-  - { offsetInCU: 0x41, offset: 0xB8278, size: 0x8, addend: 0x0, symName: __lastSearch, symObjAddr: 0x14F0, symBinAddr: 0x64A90, symSize: 0x0 }
-  - { offsetInCU: 0x90, offset: 0xB82C7, size: 0x8, addend: 0x0, symName: __unique_search_result_click, symObjAddr: 0x14F8, symBinAddr: 0x64A98, symSize: 0x0 }
+  - { offsetInCU: 0x41, offset: 0xB8278, size: 0x8, addend: 0x0, symName: __lastSearch, symObjAddr: 0x14E8, symBinAddr: 0x64A90, symSize: 0x0 }
+  - { offsetInCU: 0x90, offset: 0xB82C7, size: 0x8, addend: 0x0, symName: __unique_search_result_click, symObjAddr: 0x14F0, symBinAddr: 0x64A98, symSize: 0x0 }
   - { offsetInCU: 0xB6, offset: 0xB82ED, size: 0x8, addend: 0x0, symName: '+[ZDKHelpCenterSessionCache cacheLastSearch:]', symObjAddr: 0x0, symBinAddr: 0x11898, symSize: 0x4C }
   - { offsetInCU: 0xF5, offset: 0xB832C, size: 0x8, addend: 0x0, symName: '+[ZDKHelpCenterSessionCache unsetUniqueSearchResultClick]', symObjAddr: 0x4C, symBinAddr: 0x118E4, symSize: 0xC }
   - { offsetInCU: 0x124, offset: 0xB835B, size: 0x8, addend: 0x0, symName: '+[ZDKHelpCenterSessionCache getLastSearch]', symObjAddr: 0x58, symBinAddr: 0x118F0, symSize: 0xC }
@@ -559,8 +559,8 @@ relocations:
   - { offsetInCU: 0x1F3, offset: 0xBAFD8, size: 0x8, addend: 0x0, symName: '-[ZDKStack .cxx_destruct]', symObjAddr: 0x1A4, symBinAddr: 0x1409C, symSize: 0xC }
   - { offsetInCU: 0x27, offset: 0xBB07F, size: 0x8, addend: 0x0, symName: '+[ZDKAPIDispatcher instanceWithZendesk:]', symObjAddr: 0x0, symBinAddr: 0x140A8, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0xBB08D, size: 0x8, addend: 0x0, symName: '+[ZDKAPIDispatcher instanceWithZendesk:]', symObjAddr: 0x0, symBinAddr: 0x140A8, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0xBB0B7, size: 0x8, addend: 0x0, symName: '_instanceWithZendesk:.onceToken', symObjAddr: 0x4B98, symBinAddr: 0x64AA0, symSize: 0x0 }
-  - { offsetInCU: 0xCF, offset: 0xBB127, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x4BA0, symBinAddr: 0x64AA8, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xBB0B7, size: 0x8, addend: 0x0, symName: '_instanceWithZendesk:.onceToken', symObjAddr: 0x4B80, symBinAddr: 0x64AA0, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0xBB127, size: 0x8, addend: 0x0, symName: _instance, symObjAddr: 0x4B88, symBinAddr: 0x64AA8, symSize: 0x0 }
   - { offsetInCU: 0x31E, offset: 0xBB376, size: 0x8, addend: 0x0, symName: '___40+[ZDKAPIDispatcher instanceWithZendesk:]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x1415C, symSize: 0x40 }
   - { offsetInCU: 0x359, offset: 0xBB3B1, size: 0x8, addend: 0x0, symName: '+[ZDKAPIDispatcher instance]', symObjAddr: 0x104, symBinAddr: 0x1419C, symSize: 0xC }
   - { offsetInCU: 0x38C, offset: 0xBB3E4, size: 0x8, addend: 0x0, symName: '-[ZDKAPIDispatcher initWithZendesk:]', symObjAddr: 0x110, symBinAddr: 0x141A8, symSize: 0x78 }
@@ -884,7 +884,7 @@ relocations:
   - { offsetInCU: 0xA3, offset: 0xC4251, size: 0x8, addend: 0x0, symName: _appStore, symObjAddr: 0x530, symBinAddr: 0x514B0, symSize: 0x0 }
   - { offsetInCU: 0xB9, offset: 0xC4267, size: 0x8, addend: 0x0, symName: _enterprise, symObjAddr: 0x538, symBinAddr: 0x514B8, symSize: 0x0 }
   - { offsetInCU: 0xC3, offset: 0xC4271, size: 0x8, addend: 0x0, symName: '+[ZDKMobileProvisionAnalyzer getMobileProvisionPlist]', symObjAddr: 0x130, symBinAddr: 0x1C680, symSize: 0x218 }
-  - { offsetInCU: 0xED, offset: 0xC429B, size: 0x8, addend: 0x0, symName: _getMobileProvisionPlist.result, symObjAddr: 0x18A0, symBinAddr: 0x64AB0, symSize: 0x0 }
+  - { offsetInCU: 0xED, offset: 0xC429B, size: 0x8, addend: 0x0, symName: _getMobileProvisionPlist.result, symObjAddr: 0x1898, symBinAddr: 0x64AB0, symSize: 0x0 }
   - { offsetInCU: 0x18A, offset: 0xC4338, size: 0x8, addend: 0x0, symName: '+[ZDKMobileProvisionAnalyzer getEnvironment]', symObjAddr: 0x0, symBinAddr: 0x1C550, symSize: 0x130 }
   - { offsetInCU: 0x27, offset: 0xC43FF, size: 0x8, addend: 0x0, symName: '+[ZDKCommentsResponse parseData:]', symObjAddr: 0x0, symBinAddr: 0x1C898, symSize: 0x3B0 }
   - { offsetInCU: 0x7F, offset: 0xC4457, size: 0x8, addend: 0x0, symName: '+[ZDKCommentsResponse parseData:]', symObjAddr: 0x0, symBinAddr: 0x1C898, symSize: 0x3B0 }
@@ -910,7 +910,7 @@ relocations:
   - { offsetInCU: 0x55F, offset: 0xC4CCA, size: 0x8, addend: 0x0, symName: '-[ZDKHelpCenterOverviewContentModel .cxx_destruct]', symObjAddr: 0x3A8, symBinAddr: 0x1D004, symSize: 0x3C }
   - { offsetInCU: 0x27, offset: 0xC4D63, size: 0x8, addend: 0x0, symName: '+[ZDKDateUtil dateAsNumber:]', symObjAddr: 0x0, symBinAddr: 0x1D040, symSize: 0x2C }
   - { offsetInCU: 0x41, offset: 0xC4D7D, size: 0x8, addend: 0x0, symName: _DATE_FORMAT_API, symObjAddr: 0x570, symBinAddr: 0x514C0, symSize: 0x0 }
-  - { offsetInCU: 0x61, offset: 0xC4D9D, size: 0x8, addend: 0x0, symName: _posixLocale, symObjAddr: 0x2020, symBinAddr: 0x64AB8, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0xC4D9D, size: 0x8, addend: 0x0, symName: _posixLocale, symObjAddr: 0x2018, symBinAddr: 0x64AB8, symSize: 0x0 }
   - { offsetInCU: 0x7E, offset: 0xC4DBA, size: 0x8, addend: 0x0, symName: '+[ZDKDateUtil dateAsNumber:]', symObjAddr: 0x0, symBinAddr: 0x1D040, symSize: 0x2C }
   - { offsetInCU: 0xC1, offset: 0xC4DFD, size: 0x8, addend: 0x0, symName: '+[ZDKDateUtil dateFromNumber:]', symObjAddr: 0x2C, symBinAddr: 0x1D06C, symSize: 0x60 }
   - { offsetInCU: 0x104, offset: 0xC4E40, size: 0x8, addend: 0x0, symName: '+[ZDKDateUtil dateForJsonString:]', symObjAddr: 0x8C, symBinAddr: 0x1D0CC, symSize: 0x98 }
@@ -1379,15 +1379,15 @@ relocations:
   - { offsetInCU: 0x104, offset: 0xCF61A, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK12RequestBlipsC17requestUpdateBlipyySSFZ', symObjAddr: 0xE8, symBinAddr: 0x29F84, symSize: 0x30 }
   - { offsetInCU: 0x120, offset: 0xCF636, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK17RequestUserActionVACSEAAWl', symObjAddr: 0x500, symBinAddr: 0x2A320, symSize: 0x44 }
   - { offsetInCU: 0x27, offset: 0xCF70F, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO0A7Varient_WZ', symObjAddr: 0x0, symBinAddr: 0x2A364, symSize: 0x24 }
-  - { offsetInCU: 0x4B, offset: 0xCF733, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO0A7VarientSSvpZ', symObjAddr: 0x1EF0, symBinAddr: 0x67FE8, symSize: 0x0 }
-  - { offsetInCU: 0x65, offset: 0xCF74D, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO9requestIdSSvpZ', symObjAddr: 0x1F00, symBinAddr: 0x67FF8, symSize: 0x0 }
-  - { offsetInCU: 0x7F, offset: 0xCF767, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO15supportCategorySSvpZ', symObjAddr: 0x1F10, symBinAddr: 0x68008, symSize: 0x0 }
-  - { offsetInCU: 0x99, offset: 0xCF781, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14supportChannelSSvpZ', symObjAddr: 0x1F20, symBinAddr: 0x68018, symSize: 0x0 }
-  - { offsetInCU: 0xB3, offset: 0xCF79B, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14helpCenterFormSSvpZ', symObjAddr: 0x1F30, symBinAddr: 0x68028, symSize: 0x0 }
-  - { offsetInCU: 0xCD, offset: 0xCF7B5, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14requestCreatedSSvpZ', symObjAddr: 0x1F40, symBinAddr: 0x68038, symSize: 0x0 }
-  - { offsetInCU: 0xE7, offset: 0xCF7CF, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14requestUpdatedSSvpZ', symObjAddr: 0x1F50, symBinAddr: 0x68048, symSize: 0x0 }
-  - { offsetInCU: 0x101, offset: 0xCF7E9, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO6searchSSvpZ', symObjAddr: 0x1F60, symBinAddr: 0x68058, symSize: 0x0 }
-  - { offsetInCU: 0x11B, offset: 0xCF803, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO11articleVoteSSvpZ', symObjAddr: 0x1F70, symBinAddr: 0x68068, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xCF733, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO0A7VarientSSvpZ', symObjAddr: 0x1ED8, symBinAddr: 0x67FE8, symSize: 0x0 }
+  - { offsetInCU: 0x65, offset: 0xCF74D, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO9requestIdSSvpZ', symObjAddr: 0x1EE8, symBinAddr: 0x67FF8, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xCF767, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO15supportCategorySSvpZ', symObjAddr: 0x1EF8, symBinAddr: 0x68008, symSize: 0x0 }
+  - { offsetInCU: 0x99, offset: 0xCF781, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14supportChannelSSvpZ', symObjAddr: 0x1F08, symBinAddr: 0x68018, symSize: 0x0 }
+  - { offsetInCU: 0xB3, offset: 0xCF79B, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14helpCenterFormSSvpZ', symObjAddr: 0x1F18, symBinAddr: 0x68028, symSize: 0x0 }
+  - { offsetInCU: 0xCD, offset: 0xCF7B5, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14requestCreatedSSvpZ', symObjAddr: 0x1F28, symBinAddr: 0x68038, symSize: 0x0 }
+  - { offsetInCU: 0xE7, offset: 0xCF7CF, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO14requestUpdatedSSvpZ', symObjAddr: 0x1F38, symBinAddr: 0x68048, symSize: 0x0 }
+  - { offsetInCU: 0x101, offset: 0xCF7E9, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO6searchSSvpZ', symObjAddr: 0x1F48, symBinAddr: 0x68058, symSize: 0x0 }
+  - { offsetInCU: 0x11B, offset: 0xCF803, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO11articleVoteSSvpZ', symObjAddr: 0x1F58, symBinAddr: 0x68068, symSize: 0x0 }
   - { offsetInCU: 0x129, offset: 0xCF811, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO0A7Varient_WZ', symObjAddr: 0x0, symBinAddr: 0x2A364, symSize: 0x24 }
   - { offsetInCU: 0x143, offset: 0xCF82B, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO9requestId_WZ', symObjAddr: 0x24, symBinAddr: 0x2A388, symSize: 0x28 }
   - { offsetInCU: 0x164, offset: 0xCF84C, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK9ConstantsO5BlipsO15supportCategory_WZ', symObjAddr: 0x4C, symBinAddr: 0x2A3B0, symSize: 0x28 }
@@ -1793,7 +1793,7 @@ relocations:
   - { offsetInCU: 0x6A, offset: 0xD6CA4, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A18SDKCachingDelegateV11transformer3for011ZendeskCoreC032CachedHTTPURLResponseTransformer_pSgAF0jK7Details_p_tF', symObjAddr: 0x10, symBinAddr: 0x32BF8, symSize: 0x198 }
   - { offsetInCU: 0xFC, offset: 0xD6D36, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A18SDKCachingDelegateV011ZendeskCoreC0021CachedHTTPURLResponseE0AadEP11transformer3forAD0hI11Transformer_pSgAD0hI7Details_p_tFTW', symObjAddr: 0x1A8, symBinAddr: 0x32D90, symSize: 0x4 }
   - { offsetInCU: 0x119, offset: 0xD6D53, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A21SDKCachingTransfromerVAC011ZendeskCoreC032CachedHTTPURLResponseTransformerAAWl', symObjAddr: 0x2CC, symBinAddr: 0x32D94, symSize: 0x44 }
-  - { offsetInCU: 0x4B, offset: 0xD6EC8, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK14RequestStorageC15commentCountKeySSvpZ', symObjAddr: 0xEC30, symBinAddr: 0x68078, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xD6EC8, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK14RequestStorageC15commentCountKeySSvpZ', symObjAddr: 0xEC20, symBinAddr: 0x68078, symSize: 0x0 }
   - { offsetInCU: 0x65, offset: 0xD6EE2, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK14RequestStorageC11withZendeskAC0g4CoreC00G0C_tcfC', symObjAddr: 0x0, symBinAddr: 0x32E0C, symSize: 0x30 }
   - { offsetInCU: 0xE5, offset: 0xD6F62, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK14RequestStorageC11withZendeskAC0g4CoreC00G0C_tcfc', symObjAddr: 0x68, symBinAddr: 0x32E74, symSize: 0x154 }
   - { offsetInCU: 0x19A, offset: 0xD7017, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK14RequestStorageC11withZendeskAC0g4CoreC00G0C_tcfcTo', symObjAddr: 0x280, symBinAddr: 0x33068, symSize: 0x30 }
@@ -1937,7 +1937,7 @@ relocations:
   - { offsetInCU: 0x1D7B, offset: 0xDAC71, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK27HelpCenterCategoryViewModelC4Keys33_9AC74C58C2D8507E25066F106F01BFA5LLOs23CustomStringConvertibleAAsAGP11descriptionSSvgTW', symObjAddr: 0x1180, symBinAddr: 0x371DC, symSize: 0x28 }
   - { offsetInCU: 0x1DC9, offset: 0xDACBF, size: 0x8, addend: 0x0, symName: '_$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSay19SupportProvidersSDK26HelpCenterSectionViewModelCG_Tg5', symObjAddr: 0x1970, symBinAddr: 0x37988, symSize: 0x190 }
   - { offsetInCU: 0x1F34, offset: 0xDAE2A, size: 0x8, addend: 0x0, symName: '_$sSa6remove2atxSi_tF19SupportProvidersSDK26HelpCenterSectionViewModelC_Tg5', symObjAddr: 0x1B00, symBinAddr: 0x37B18, symSize: 0xA0 }
-  - { offsetInCU: 0x4B, offset: 0xDB0F5, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A0C16internalInstanceACSgvpZ', symObjAddr: 0x5430, symBinAddr: 0x68088, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0xDB0F5, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A0C16internalInstanceACSgvpZ', symObjAddr: 0x5420, symBinAddr: 0x68088, symSize: 0x0 }
   - { offsetInCU: 0x83, offset: 0xDB12D, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A0C24helpCenterLocaleOverrideSSSgvgTo', symObjAddr: 0xC, symBinAddr: 0x3889C, symSize: 0x78 }
   - { offsetInCU: 0xB8, offset: 0xDB162, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A0C24helpCenterLocaleOverrideSSSgvg', symObjAddr: 0x84, symBinAddr: 0x38914, symSize: 0x54 }
   - { offsetInCU: 0x101, offset: 0xDB1AB, size: 0x8, addend: 0x0, symName: '_$s19SupportProvidersSDK0A0C24helpCenterLocaleOverrideSSSgvsTo', symObjAddr: 0xD8, symBinAddr: 0x38968, symSize: 0x78 }
