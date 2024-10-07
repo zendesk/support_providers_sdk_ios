@@ -222,7 +222,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1BnJiPfz1IxGEu/Y3ULL5Eez1WE=
+		pIkteTd4vY38K9vRMgmNOkI2gAI=
 		</data>
 		<key>Modules/SupportProvidersSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -272,6 +272,10 @@
 		<data>
 		JptgPZZwwpNPUAmdHmNsboMMbNo=
 		</data>
+		<key>PrivateHeaders/ZDKClassicLogger.h</key>
+		<data>
+		JssNEx7J7w/v/Vi2+0FFYabzHSo=
+		</data>
 		<key>PrivateHeaders/ZDKHelpCenterOverviewContentModel+Private.h</key>
 		<data>
 		4NsXO3po1TjAcX1dhPl07Y6W+pg=
@@ -279,10 +283,6 @@
 		<key>PrivateHeaders/ZDKHelpCenterSearch+Private.h</key>
 		<data>
 		8StyFr8TEC8KUXk1U0tI/QSShms=
-		</data>
-		<key>PrivateHeaders/ZDKLogger.h</key>
-		<data>
-		Na10Y+nDN+r1wjbPAYduJG1k2aE=
 		</data>
 		<key>PrivateHeaders/ZDKTicketFormUtilities.h</key>
 		<data>
@@ -753,6 +753,13 @@
 			ULWhA2+DFk8U5hmDLllRVZysXWwqOWtPGcNRfIogTRM=
 			</data>
 		</dict>
+		<key>PrivateHeaders/ZDKClassicLogger.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nzNGZxWvDMwEtd6/6k+j+Nln4d6/Bt7KljBTQ/Rb0Qs=
+			</data>
+		</dict>
 		<key>PrivateHeaders/ZDKHelpCenterOverviewContentModel+Private.h</key>
 		<dict>
 			<key>hash2</key>
@@ -765,13 +772,6 @@
 			<key>hash2</key>
 			<data>
 			h3C7RxTAwPrbtUMMol9c57jYU2iSRyQH9eZ4cMmAdJc=
-			</data>
-		</dict>
-		<key>PrivateHeaders/ZDKLogger.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BiqOapYZsXt25fwGSgcCuezgop+cPkCur6XKOh/0sJk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/ZDKTicketFormUtilities.h</key>

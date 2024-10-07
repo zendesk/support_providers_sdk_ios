@@ -445,17 +445,17 @@ relocations:
   - { offsetInCU: 0x157, offset: 0xB838E, size: 0x8, addend: 0x0, symName: '+[ZDKHelpCenterSessionCache recordArticleViewRequestJson]', symObjAddr: 0x64, symBinAddr: 0x118FC, symSize: 0x108 }
   - { offsetInCU: 0x27, offset: 0xB8418, size: 0x8, addend: 0x0, symName: '+[ZDKStringUtil csvStringFromArray:]', symObjAddr: 0x0, symBinAddr: 0x11A04, symSize: 0x160 }
   - { offsetInCU: 0x43, offset: 0xB8434, size: 0x8, addend: 0x0, symName: '+[ZDKStringUtil csvStringFromArray:]', symObjAddr: 0x0, symBinAddr: 0x11A04, symSize: 0x160 }
-  - { offsetInCU: 0x27, offset: 0xB851B, size: 0x8, addend: 0x0, symName: '+[ZDKLogger error:]', symObjAddr: 0x0, symBinAddr: 0x11B64, symSize: 0xC }
-  - { offsetInCU: 0x4A, offset: 0xB853E, size: 0x8, addend: 0x0, symName: '+[ZDKLogger error:]', symObjAddr: 0x0, symBinAddr: 0x11B64, symSize: 0xC }
-  - { offsetInCU: 0x87, offset: 0xB857B, size: 0x8, addend: 0x0, symName: '+[ZDKLogger e:]', symObjAddr: 0xC, symBinAddr: 0x11B70, symSize: 0x74 }
-  - { offsetInCU: 0xE7, offset: 0xB85DB, size: 0x8, addend: 0x0, symName: '+[ZDKLogger warn:]', symObjAddr: 0x80, symBinAddr: 0x11BE4, symSize: 0xC }
-  - { offsetInCU: 0x124, offset: 0xB8618, size: 0x8, addend: 0x0, symName: '+[ZDKLogger w:]', symObjAddr: 0x8C, symBinAddr: 0x11BF0, symSize: 0x74 }
-  - { offsetInCU: 0x184, offset: 0xB8678, size: 0x8, addend: 0x0, symName: '+[ZDKLogger info:]', symObjAddr: 0x100, symBinAddr: 0x11C64, symSize: 0xC }
-  - { offsetInCU: 0x1C1, offset: 0xB86B5, size: 0x8, addend: 0x0, symName: '+[ZDKLogger i:]', symObjAddr: 0x10C, symBinAddr: 0x11C70, symSize: 0x74 }
-  - { offsetInCU: 0x221, offset: 0xB8715, size: 0x8, addend: 0x0, symName: '+[ZDKLogger debug:]', symObjAddr: 0x180, symBinAddr: 0x11CE4, symSize: 0xC }
-  - { offsetInCU: 0x25E, offset: 0xB8752, size: 0x8, addend: 0x0, symName: '+[ZDKLogger d:]', symObjAddr: 0x18C, symBinAddr: 0x11CF0, symSize: 0x74 }
-  - { offsetInCU: 0x2BE, offset: 0xB87B2, size: 0x8, addend: 0x0, symName: '+[ZDKLogger verbose:]', symObjAddr: 0x200, symBinAddr: 0x11D64, symSize: 0xC }
-  - { offsetInCU: 0x2FB, offset: 0xB87EF, size: 0x8, addend: 0x0, symName: '+[ZDKLogger v:]', symObjAddr: 0x20C, symBinAddr: 0x11D70, symSize: 0x74 }
+  - { offsetInCU: 0x27, offset: 0xB851B, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger error:]', symObjAddr: 0x0, symBinAddr: 0x11B64, symSize: 0xC }
+  - { offsetInCU: 0x4A, offset: 0xB853E, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger error:]', symObjAddr: 0x0, symBinAddr: 0x11B64, symSize: 0xC }
+  - { offsetInCU: 0x87, offset: 0xB857B, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger e:]', symObjAddr: 0xC, symBinAddr: 0x11B70, symSize: 0x74 }
+  - { offsetInCU: 0xE7, offset: 0xB85DB, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger warn:]', symObjAddr: 0x80, symBinAddr: 0x11BE4, symSize: 0xC }
+  - { offsetInCU: 0x124, offset: 0xB8618, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger w:]', symObjAddr: 0x8C, symBinAddr: 0x11BF0, symSize: 0x74 }
+  - { offsetInCU: 0x184, offset: 0xB8678, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger info:]', symObjAddr: 0x100, symBinAddr: 0x11C64, symSize: 0xC }
+  - { offsetInCU: 0x1C1, offset: 0xB86B5, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger i:]', symObjAddr: 0x10C, symBinAddr: 0x11C70, symSize: 0x74 }
+  - { offsetInCU: 0x221, offset: 0xB8715, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger debug:]', symObjAddr: 0x180, symBinAddr: 0x11CE4, symSize: 0xC }
+  - { offsetInCU: 0x25E, offset: 0xB8752, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger d:]', symObjAddr: 0x18C, symBinAddr: 0x11CF0, symSize: 0x74 }
+  - { offsetInCU: 0x2BE, offset: 0xB87B2, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger verbose:]', symObjAddr: 0x200, symBinAddr: 0x11D64, symSize: 0xC }
+  - { offsetInCU: 0x2FB, offset: 0xB87EF, size: 0x8, addend: 0x0, symName: '+[ZDKClassicLogger v:]', symObjAddr: 0x20C, symBinAddr: 0x11D70, symSize: 0x74 }
   - { offsetInCU: 0x27, offset: 0xB88AD, size: 0x8, addend: 0x0, symName: '+[ZDKCreateRequestUtilities customTicketFieldsWithConfig:createRequest:]', symObjAddr: 0x0, symBinAddr: 0x11DE4, symSize: 0x8 }
   - { offsetInCU: 0x4A, offset: 0xB88D0, size: 0x8, addend: 0x0, symName: '+[ZDKCreateRequestUtilities customTicketFieldsWithConfig:createRequest:]', symObjAddr: 0x0, symBinAddr: 0x11DE4, symSize: 0x8 }
   - { offsetInCU: 0x99, offset: 0xB891F, size: 0x8, addend: 0x0, symName: '+[ZDKCreateRequestUtilities ticketFormIdWithConfig:createRequest:]', symObjAddr: 0x8, symBinAddr: 0x11DEC, symSize: 0x8 }

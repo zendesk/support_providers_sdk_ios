@@ -1,6 +1,6 @@
 /*
  *
- *  ZDKLogger.h
+ *  ZDKClassicLogger.h
  *  SupportProvidersSDK
  *
  *  Created by Zendesk on 25/11/2014.  
@@ -20,7 +20,7 @@
 /**
  *  Logger for SDK.
  */
-@interface ZDKLogger : NSObject
+@interface ZDKClassicLogger : NSObject
 
 
 /**
